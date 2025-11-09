@@ -9,21 +9,21 @@ const projects = [
     title: 'Pathe',
     category: 'Solo',
     description: 'A personal skill-tracking application that lets users log progress, track learning time, and receive AI-powered updates about their skills and technologies.',
-    image: 'https://images.unsplash.com/photo-1738676524296-364cf18900a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGRlc2lnbiUyMHN0dWRpb3xlbnwxfHx8fDE3NjE5OTUxNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: '/pathe.png',
     tags: ['Next.js', 'FastAPI', 'MongoDB'],
   },
   {
     title: 'AI Powered Parental Control System',
     category: 'Team',
     description: 'Designed an AI model to monitor and analyze text context and sentiment to predict potential risk levels. Focuses on ethical tracking and real-time anomaly detection.',
-    image: 'https://images.unsplash.com/photo-1672581437674-3186b17b405a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjE5NTkxNzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: '/parental_control.png',
     tags: ['Next.js', 'Express.js', 'MongoDB','Python'],
   },
   {
     title: 'Portfolio',
     category: 'Solo',
     description: ' bold, modern portfolio showcasing design and development work with vibrant gradients, smooth animations, and creative layouts. Built to stand out and attract potential employers with an eye-catching visual experience.',
-    image: 'https://images.unsplash.com/photo-1662012061995-0cd4a7ef2d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMG5lb24lMjBsaWdodHN8ZW58MXx8fHwxNzYyMDMxMTI0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: '/portfolio.png',
     tags: ['Next.js'],
   }
 ];
@@ -55,7 +55,7 @@ export function Projects() {
               {/* Image */}
               <div className="aspect-video overflow-hidden">
                 <img
-                //   src={project.image}
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
