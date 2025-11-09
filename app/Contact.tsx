@@ -44,7 +44,7 @@ export function Contact() {
         {/* Section Header */}
         <div className="text-center mb-20">
             <SectionHeaderName sectionName="Let's Connect" />
-            <SectionQuote qaT1="Ready To" qT2="Work Together?" />
+            <SectionQuote qT1="Ready To" qT2="Work Together?" />
           <p className="text-white/60 text-xl max-w-2xl mx-auto">
             I'm actively seeking new opportunities. Let's discuss how I can contribute to your team.
           </p>
