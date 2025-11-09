@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from '@/node_modules/next/image';
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,9 +41,9 @@ export function Navigation() {
         <div className="flex justify-between items-center h-20">
           <button
             onClick={() => scrollToSection('home')}
-            className="text-2xl bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent"
+            className="text-2xl bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent cursor-pointer"
           >
-            Portfolio
+            SK
           </button>
 
           {/* Desktop Navigation */}
